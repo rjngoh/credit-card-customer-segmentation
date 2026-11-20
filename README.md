@@ -24,7 +24,7 @@ Using the **CRISP-DM framework**, two modelling techniques were selected to addr
 - **Association Analysis:** Apriori Algorithm
 - **Model Evaluation:** Average Silhouette Coefficient, Minimum Support Threshold, Minimum Confidence Threshold
 - **Data Preprocessing:** Data Cleaning, Min-Max Normalisation, Boolean Encoding
-- **Mathodology:** CRISP-DM
+- **Methodology:** CRISP-DM
 
 ## Methodology
 The **Cross-Industry Standard Process for Data Mining (CRISP-DM)** framework involves six phases in a typical data mining project:
