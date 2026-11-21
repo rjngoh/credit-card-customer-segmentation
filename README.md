@@ -1,4 +1,4 @@
-# Credit Card Customer Segmentation & Promotional Strategy Optimisation
+# Credit Card Customer Segmentation & Promotional Strategy Optimisation Using Machine Learning
 
 **An end-to-end descriptive data mining project using Python (Google Colab), K-Means Clustering, and Apriori Association Rule Mining.**
 
