@@ -122,6 +122,10 @@ Apriori Association Rule Mining: Based on the strong rules generated, the compan
 
 Model performance for both should be monitored over time to maintain their benefits.
 
+### Business Recommendations
+
+Based on the findings, the project proposed a targeted promotional strategy involving partnerships with insurance, electronics, and home appliance providers to organize a technology-focused promotional campaign featuring credit card-linked discounts, cashback after a qualifying purchase, or reward points for a first or repeat card transaction. The proposed strategy aims to encourage card usage among targeted customer segments, while reducing unnecessary marketing expenditure.
+
 ### Project Background
 
 This project was completed as part of the ANL303 Fundamentals of Data Mining group-based assignment at the Singapore University of Social Sciences.
