@@ -78,6 +78,12 @@ Key findings:
 
 The minimum support and minimum confidence thresholds were evaluated to select appropriate values, where meaningful business insights can be derived from the generated strong rules (there should not be too many rules).
 
+The following Bar chart for customer engagement frequency of promotional activities in past campaigns helps us decide on a minimum support threshold for the Apriori algorithm:
+
+<img width="571" height="564" alt="Bar chart for customer engagement frequency of promotional activities in past campaigns" src="https://github.com/user-attachments/assets/6e3b8b5f-6c8b-4ee4-8016-7a50125aa58e" />
+
+As promotional campaigns take a substantial investment from businesses, it is important to decide on effective marketing strategies that are likely to yield positive returns. If the company decides to invest in promotional campaigns to include promotional activities such as Travel Packages, Beauty and Wellness, and Entertainment, the return on investment (ROI) from the campaign may not be satisfactory due to potential low turnout rates for including these activities. Therefore, a **minimum Support value of 0.1** (10%) is selected to filter out infrequent promotional activities.
+
 **Selected parameters:**
 
 - Minimum Support: **10%**
