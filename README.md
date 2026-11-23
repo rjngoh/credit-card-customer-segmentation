@@ -60,6 +60,14 @@ This phase involves building the K-Means model, and generating strong associatio
 Different values of K (number of clusters) will be tested, and the final model will be selected based on metrics such as the average silhouette coefficient, as well as the principle of parsimony.
 Multiple cluster configurations (K=2 to K=6) were evaluated using average silhouette coefficients.
 
+**Silhouette Analysis results:**
+
+<img width="471" height="97" alt="Silhouette Analysis Results" src="https://github.com/user-attachments/assets/af17a689-8351-4b99-9396-07b983ab63fe" />
+
+**The chosen 'best model' (K=2 & outliers retained):**
+
+<img width="589" height="455" alt="Cluster Solution" src="https://github.com/user-attachments/assets/37633d99-1f14-43bb-b0d4-7a7a74e0ba93" />
+
 Key findings:
 - K=2 achieved the highest average silhouette coefficient of approximately 0.4545.
 - The resulting clusters were categorised as ‘Younger, Lower Income’ and ‘Older, Higher Income’.
@@ -73,22 +81,30 @@ The minimum support and minimum confidence thresholds were evaluated to select a
 **Selected parameters:**
 
 - Minimum Support: **10%**
-- Minimum Confidence: **75%**
-- Association Rules Generated: **4**
+- Minimum Confidence: **80%**
+- Association Rules Generated: **3**
 
-The selected thresholds produced a manageable set of association rules for business interpretation.
+**The selected thresholds produced a manageable set of association rules for business interpretation:**
+
+<img width="1688" height="134" alt="Strong Association Rules" src="https://github.com/user-attachments/assets/e8d7a157-7bfc-4058-ad56-f7a6f299a514" />
 
 One notable association identified was:
 
-**{Insurance Plans, Home Appliances} -> {Electronics} (rule support: 10.6%, confidence: 78.8%)**
+**{Insurance Plans, Electronics} -> {Home Appliances} (rule support: 11%, confidence: 83.6%)**
 
 ### Phase 5: Evaluation
 
 This phase involves assessing whether the Clustering solution, and the generated strong rules are meaningful and useful from a business perspective.
 
-**K-Means Clustering:** The proportion of zero-balance cardholders will be computed for each cluster. Clusters with a large proportion of zero-balance cardholders will be identified as the target(s) for promotions – The analysis identified the ‘Younger, Lower Income’ cluster as the proposed target group for promotional campaigns.
+**K-Means Clustering:** The proportion of zero-balance cardholders will be computed for each cluster. Clusters with a larger proportion of zero-balance cardholders will be identified as the target(s) for promotions.
 
-**Apriori Association Rule Mining:** The generated strong rules will be examined to ensure that they are actionable, and can help the company to develop effective promotional strategies. – The analysis produced a notable association rule – **{Insurance Plans, Home Appliances} -> {Electronics}** – which indicates that approximately 78.8% of the observations involving both insurance plan and home appliance promotional activities also involved electronics promotional activity. The association provides a basis for exploring complementary promotional offerings.
+**Proportional Analysis Results in %:**
+
+<img width="268" height="131" alt="Proportional Analysis Results" src="https://github.com/user-attachments/assets/85ab8fbb-5add-466f-8327-cbfe639c1554" />
+
+The analysis reveals that 75.2% of zero-balance cardholders are from the younger/lower-income cluster which is significantly larger than the older/higher-income cluster where the remaining 24.8% of zero-balance cardholders are from. Therefore, the **'Younger, Lower Income'** cluster is the proposed target group for promotional campaigns.
+
+**Apriori Association Rule Mining:** The generated strong rules will be examined to ensure that they are actionable, and can help the company to develop effective promotional strategies. – The analysis produced a notable association rule – **{Insurance Plans, Electronics} -> {Home Appliances}** – which indicates that approximately 83.6% of the observations involving both insurance plan and electronics promotional activities also involved home appliances promotional activity. The association provides a basis for exploring complementary promotional offerings.
 
 ### Phase 6: Deployment
 
