@@ -76,7 +76,7 @@ Key findings:
 
 **Promotional Preference Analysis (Apriori Association Rule Mining)**
 
-The minimum support and minimum confidence thresholds were evaluated to select appropriate values, where meaningful business insights can be derived from the generated strong rules (there should not be too many rules).
+The appropriate minimum support and minimum confidence thresholds were evaluated to generate strong rules, where meaningful business insights can be derived from (there should not be too many rules).
 
 The following Bar chart for customer engagement frequency of promotional activities in past campaigns helps us decide on a minimum support threshold for the Apriori algorithm:
 
@@ -96,7 +96,7 @@ As promotional campaigns take a substantial investment from businesses, it is im
 
 One notable association identified was:
 
-**{Insurance Plans, Electronics} -> {Home Appliances} (rule support: 11%, confidence: 83.6%)**
+**{Insurance Plans, Electronics} → {Home Appliances} (rule support: 11%, confidence: 83.6%)**
 
 ### Phase 5: Evaluation
 
@@ -110,7 +110,7 @@ This phase involves assessing whether the Clustering solution, and the generated
 
 The analysis reveals that 75.2% of zero-balance cardholders are from the younger/lower-income cluster which is significantly larger than the older/higher-income cluster where the remaining 24.8% of zero-balance cardholders are from. Therefore, the **'Younger, Lower Income'** cluster is the proposed target group for promotional campaigns.
 
-**Apriori Association Rule Mining:** The generated strong rules will be examined to ensure that they are actionable, and can help the company to develop effective promotional strategies. – The analysis produced a notable association rule – **{Insurance Plans, Electronics} -> {Home Appliances}** – which indicates that approximately 83.6% of the observations involving both insurance plan and electronics promotional activities also involved home appliances promotional activity. The association provides a basis for exploring complementary promotional offerings.
+**Apriori Association Rule Mining:** The generated strong rules will be examined to ensure that they are actionable, and can help the company to develop effective promotional strategies. The analysis produced a notable association rule – **{Insurance Plans, Electronics} → {Home Appliances}** – which indicates that approximately 83.6% of the observations involving both insurance plan and electronics promotional activities also involved home appliances promotional activity. The association provides a basis for exploring complementary promotional offerings.
 
 ### Phase 6: Deployment
 
