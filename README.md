@@ -15,6 +15,14 @@ Using the **CRISP-DM framework**, two modelling techniques were selected to addr
 - **K-Means Clustering:** Segment customers based on age and income to identify groups suitable for targeted promotions.
 - **Apriori Association Rule Mining:** Identify relationships between past promotional campaign responses to help the company develop promotional strategies.
 
+## Key Findings
+
+- Identified two distinct customer segments using K-Means clustering, achieving an average silhouette coefficient of **0.4545**.
+- Identified the younger, lower-income segment as the proposed target group, accounting for **75.2% of all zero-balance cardholders**.
+- Generated **three association rules** within the selected customer segment using Apriori association rule mining.
+- Identified a notable association between insurance, electronics and home appliance promotional activities, achieving **83.6% confidence**.
+- Developed a targeted promotional strategy involving complementary merchant partnerships and credit card-linked incentives.
+
 ## Tools & Technologies
 
 - **Programming:** Python (Google Colab)
