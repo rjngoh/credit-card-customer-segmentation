@@ -28,8 +28,8 @@ Using the **CRISP-DM framework**, two modelling techniques were selected to addr
 - **Programming:** Python (Google Colab)
 - **Data Manipulation:** Pandas
 - **Data Visualisation:** Matplotlib, Seaborn
-- **Cluster Analysis:** K-Means Algorithm
-- **Association Analysis:** Apriori Algorithm
+- **Cluster Analysis:** scikit-learn (K-Means Algorithm)
+- **Association Analysis:** mlxtend (Apriori Algorithm)
 - **Model Evaluation:** Average Silhouette Coefficient, Minimum Support Threshold, Minimum Confidence Threshold
 - **Data Preprocessing:** Data Cleaning, Min-Max Normalisation, Boolean Encoding
 - **Methodology:** CRISP-DM
