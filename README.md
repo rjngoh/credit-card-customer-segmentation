@@ -74,7 +74,7 @@ Multiple cluster configurations (K=2 to K=6) were evaluated using average silhou
 
 **The chosen 'best model' (K=2 & outliers retained):**
 
-<img width="589" height="455" alt="Cluster Solution" src="https://github.com/user-attachments/assets/37633d99-1f14-43bb-b0d4-7a7a74e0ba93" />
+<img width="601" height="455" alt="Cluster Solution" src="https://github.com/user-attachments/assets/964041a4-fcd8-428d-a784-f7a49114a6a3" />
 
 Key findings:
 - K=2 achieved the highest average silhouette coefficient of approximately 0.4545.
